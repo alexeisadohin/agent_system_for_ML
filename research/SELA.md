@@ -12,18 +12,9 @@
 - **Структура**: Пространство поиска представлено в виде дерева:  
   - **Узлы** = этапы пайплайна + конкретные инсайты.  
   - **Пути** = полные конфигурации экспериментов.  
-- **Алгоритм**: Модифицированный **UCT-DP** (Upper Confidence Bound for Trees with Depth Preference):  
-  $$
-  \text{UCT-DP}(x) = \frac{v(x)}{n(x)} + \alpha_{\text{explore}} \sqrt{\frac{\ln n_{\text{visits}}(x_{\text{parent}})}{n(x)}}
-  $$  
-  где:  
-  $$
-  n(x) = 
-  \begin{cases} 
-  \alpha_{\text{unvisited}} & \text{если } n_{\text{visits}}(x) = 0 \\ 
-  n_{\text{visits}}(x) & \text{иначе}.
-  \end{cases}
-  $$
+- **Алгоритм**: Модифицированный **UCT-DP** (Upper Confidence Bound for Trees with Depth Preference): 
+-  
+ ![UCT-DP](https://quicklatex.com/cache3/.../LaTex_f.png)
 
 ### 3. **Experiment Executor**
 - **Этапы**:  
