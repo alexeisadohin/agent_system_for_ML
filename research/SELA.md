@@ -14,7 +14,7 @@
   - **Пути** = полные конфигурации экспериментов.  
 - **Алгоритм**: Модифицированный **UCT-DP** (Upper Confidence Bound for Trees with Depth Preference): 
 -  
- ![UCT-DP](https://quicklatex.com/cache3/.../LaTex_f.png)
+ ![UCT-DP](D:\Mephi\22kaf\4sem\AgentSystem\LangChain\research\img\LaTex_f.png)
 
 ### 3. **Experiment Executor**
 - **Этапы**:  
