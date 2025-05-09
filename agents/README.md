@@ -5,4 +5,11 @@
 
 | Название агента/агентной системы | Датасет | Метрика | Значение метрики | Время выполнения, сек. | Затрачено входных токенов | Затрачено выходных токенов |
 |-------------|-------------|-------------|-------------|-------------|-------------|-------------|
-|agent name | dataset name | metric (e.g. RMSE) | metric value | execution time | input tokens | output tokens |
+|ML engineer | user churn | ROC-AUC | 0.8015264642442343 | 48.1s | 14528 | 1730 |
+|MLE + planning | user churn | ROC-AUC | 0.7987058237929316    |  58s |  15545   |  1337 |
+|MLE + Human Insight Bank (HIB)| user churn| ROC-AUC |0.8070225651236104|3m 8.6s|366 282|2 576|
+|MLE + HIB + planning|user churn| ROC-AUC |
+|MLE|flat price|RMSE|
+|MLE + planning|flat price|RMSE|13747906.007218136|35m|35007|5691|
+|MLE + HIB|flat price|RMSE|
+|MLE + HIB + planning|flat price|RMSE|
