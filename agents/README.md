@@ -15,3 +15,5 @@
 |MLE + planning|flat price|RMSE|13747906.007218136|35m|35007|5691|
 |MLE + HIB|flat price|RMSE|18563619.853423897|53.6s|38 827|3 261|
 |MLE + HIB + planning|flat price|RMSE|15716963.956103794|3m 11.8s|131 649|10 043|
+|Manager + MLE|flat price| RMSE |15504562.0264|41.6s|68236|8566|
+|Manager + MLE + planning|flat price| RMSE |14423296.2840 |68.22s|24347|6445|
