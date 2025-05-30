@@ -1,4 +1,3 @@
-Здесь будет тестирование различных automl решений на датасетах
 
 AutoML решения:
 1. [lazypredict](https://pypi.org/project/lazypredict/)
